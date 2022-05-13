@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EFEBEB"
+    android:layout_margin="2dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <!--^^^^^^^^^^short image all players ^^^^^^^^^^ -->
+
+
+        <ScrollView
+            android:layout_width="120dp"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/player1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/shakib_al_hasan"
+                        android:layout_gravity="center"
+                        />
+                    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sakib Al Hasan"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                    
+                    
+                    
+                        
+                        
+
+
+
+
+
+                </LinearLayout>
+                
+                
+                <!-- =================================== -->
+                
+                <LinearLayout
+                    android:id="@+id/player2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+                    
+                    
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/mahmudullah"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mahmudullah Riyad"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+                    
+                    
+                    
+                    
+                    
+                </LinearLayout>
+
+
+
+                <!-- ====================================== -->
+
+                <LinearLayout
+                    android:id="@+id/player3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/mushfiqur_rahim"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Musfiqur Rahim"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <!-- ===================================== -->
+
+
+
+                <LinearLayout
+                    android:id="@+id/player4"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/liton_das"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Liton Das"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <!-- ==================================== -->
+
+
+                <LinearLayout
+                    android:id="@+id/player5"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/mashrafe_mortaza"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mashrafe Bin Mortaza"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ============================= -->
+
+
+                <LinearLayout
+                    android:id="@+id/player6"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/tamim_iqbal"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tamim Iqbal"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- ========================== -->
+
+
+
+                <LinearLayout
+                    android:id="@+id/player7"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/sabbir_rahman"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sabbir Rahaman"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- =============================== -->
+
+
+                <LinearLayout
+                    android:id="@+id/player8"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/soumya_sarkar"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Soumya Sarkar"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- =================================== -->
+
+
+                <LinearLayout
+                    android:id="@+id/player9"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/mosaddek_hossain"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mosaddek Hossain"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ============================= -->
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/player10"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/mohammad_mithun"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mohammad Mithun"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <!-- ================================ -->
+
+
+
+                <LinearLayout
+                    android:id="@+id/player11"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/mustafizur_rahman"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mustafizur Rahman"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- ====================================== -->
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/player12"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/rubel_hossain"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rubel Hossain"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- ========================== -->
+
+
+
+                <LinearLayout
+                    android:id="@+id/player13"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/abu_jayed"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abu Jayed Rahi"
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+
+        <!-- ========= short image all players ============ -->
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#115C14"
+            android:layout_margin="5dp"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/bd_cricket"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible"
+                    android:orientation="vertical"
+                    >
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="250dp"
+                       android:src="@drawable/bd_logo"
+                       android:scaleType="centerCrop"
+                       />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/white"
+                        android:text="Player Name"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/white"
+                        android:text="Player Height"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:textColor="@android:color/white"
+                        android:text="Player Description"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ======================================= -->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/sakib"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/shakib_al_hasan2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Shakib Al Hasan"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.75 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Shakib Al Hasan is a Bangladeshi international cricketer. Regarded as the greatest all-rounder of all time, his aggressive left-handed batting style in the middle order, controlled slow left-arm orthodox bowling has made him a consistent player for Bangladesh.
+Born: March 24, 1987 (age 34 years), Magura District.
+Spouse: Umme Ahmed Shishir (m. 2012)
+Salary: 425,000 USD (2011)
+Children: Alaina Hasan Abri, Errum Hasan, Eyzah Al Hasan
+Current teams: Bangladesh national cricket team (All-rounder)
+Siblings: Jannatul Ferdous Ritu"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ==================================== -->
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mahmudullah"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/mahmudullah_riyad2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mohammad Mahmudullah"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.8 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mohammad Mahmudullah, also known as Riyad, is a Bangladeshi cricketer and the current T20I captain. He has played First-class and List A cricket for Dhaka Division and has represented Bangladesh in all forms of the game. An all-rounder, he is a lower or middle-order batsman as well as an off spin bowler.
+Born: February 4, 1986 (age 35 years), Mymensingh.
+Height: 1.8 m
+Spouse: Jannatul Kawsar Mishti (m. 2011)
+Education: Mymensingh Zilla School
+Batting style: Right-handed
+Parents: Mohammad Obaidullah Nabab, Arafat Begum
+Dates joined: 2019 (Chattogram Challengers)"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- ============================================== -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/musfiq"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/mushfiqur_rahim2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mushfiqur Rahim"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.6 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mushfiqur Rahim is a Bangladeshi cricketer and the former captain and vice-captain of the Bangladesh national cricket team. He is considered as the best and most successful captain of Bangladesh in tests.
+Born: May 9, 1987 (age 34 years), Bogura
+Height: 1.6 m
+Spouse: Jannatul Kifayet Mondi (m. 2014)
+Children: Mohammad Shahroj Rahim Mayan
+Education: Bangladesh Krira Shikkha Protishtan, Jahangirnagar University, Bogura Zilla School
+Dates joined: 2020 (Beximco Dhaka),
+Parents: Mahbub Habib, Rahima Khatun"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ======================================= -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/liton"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/liton_das2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Liton Kumar Das"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.70 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Liton Kumar Das is a Bangladeshi cricketer. He is a right-handed opening batsman and a test wicket-keeper. He made his international debut for Bangladesh in June 2015. He has scored the highest individual score for Bangladesh in ODI cricket.
+Born: October 13, 1994 (age 27 years), Dinajpur.
+Full name: Liton Kumar Das
+Nationality: Bangladeshi
+Height: 5 ft 7 in (1.70 m)
+Batting style: Right-handed
+Current teams: Bangladesh national cricket team (Wicket-keeper)
+Dates joined: November 2019 (Rajshahi Royals)"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ============================================== -->
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mashrafe"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/mashrafe_mortaza2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mashrafe Mortaza"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.85 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mashrafe Bin Mortaza is a Bangladeshi international cricketer and politician who is the former captain in all three formats of the game for the Bangladesh national cricket team.
+Born: October 5, 1983 (age 38 years), Narail District.
+Height: 1.85 m
+Career start: 2001
+Spouse: Sumona Haque Sumi (m. 2006)
+Education: Jahangirnagar University (2003–2004)
+Children: Sahil Mortaza, Humaira Mortaza
+Parents: Golam Mortaza, Hamida Mortaza"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- =========================================== -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tamim"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/tamim_iqbal2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Tamim Iqbal"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.75 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Tamim Iqbal Khan, more popularly known as Tamim Iqbal, is a Bangladeshi international cricketer. He is currently the captain of the Bangladesh national team in One Day Internationals. Tamim made his ODI debut in 2007 and played his first Test match the following year.
+Born: March 20, 1989 (age 32 years), Chattogram.
+Height: 1.75 m
+Career start: February 12, 2005
+Spouse: Ayesha Siddiqa (m. 2013)
+Children: Arham Iqbal Khan
+Siblings: Nafees Iqbal, Urusha Khan
+Current teams: Bangladesh national cricket team (Batsman)"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ============================================== -->
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/sabbir"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/sabbir_rahman2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Sabbir Rahman"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.75 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mohammad Sabbir Rahman is a Bangladeshi cricketer. He is from Rajshahi and besides the national team, he plays for Rajshahi Division. He is an all-rounder: a right-handed batsman and legbreak bowler. He captained the Bangladesh Under 19's team. He made his international debut for Bangladesh in February 2014.
+Born: November 22, 1991 (age 29 years), Rajshahi.
+Full name: Mohammad Sabbir Rahman.
+Batting style: Right-handed.
+Education: American International University-Bangladesh (AIUB).
+Parents: Hazera Khatun, Khaja Ahmed.
+Current teams: Bangladesh national cricket team (All-rounder).
+Dates joined: 2018 (Peshawar Zalmi)"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- ==================================== -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/soumya"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/soumya_sarkar2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Soumya Sarkar"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.83 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Soumya Sarkar is a Bangladeshi cricketer. He is a left-handed batsman and a right arm medium-fast bowler who mainly plays as an opening batsman.
+Born: February 25, 1993 (age 28 years), Satkhira District
+Height: 1.83 m
+Batting style: Left-handed
+Education: Bangladesh Krira Shikkha Protishtan
+Siblings: Pushpen Sarkar
+Dates joined: 2020 (Central Zone cricket team), MORE
+Current teams: Bangladesh national cricket team (All-rounder)"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- ========================================== -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mosaddek"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/mosaddek_hossain2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mosaddek Hossain Saikat"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.74 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mosaddek Hossain Saikat is a Bangladeshi cricketer who plays for the Bangladesh national cricket team and for Barisal Division in domestic cricket. He made his international debut for Bangladesh in January 2016.
+Born: December 10, 1995 (age 25 years), Mymensingh
+Height: 1.74 m
+Spouse: Samia Sharmin Usha (m. 2012–2018)
+Batting style: Right-handed
+Siblings: Mosabbek Hossain
+Parents: Hosne Ara Begum, Abul Kashem
+Current teams: Abahani Limited cricket team (Batsman)"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ============================================== -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mithun"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/mohammad_mithun2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mohammad Mithun "
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.78 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mohammad Mithun is a Bangladeshi cricketer. He made his first class in 2006/07 season for Sylhet Division. He plays for Sylhet Thunder in the Bangladesh Premier League. He made his international debut for Bangladesh in February 2014.
+Born: March 2, 1991 (age 30 years), Kushtia
+Height: 1.78 m
+Batting style: Right-handed
+Number of centuries: 0
+Current teams: Prime Bank Cricket Club (Wicket-keeper), MORE
+Dates joined: 2019 (Sylhet Thunder), 2018 (Kandahar Knights)"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!-- ================================================== -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mustafiz"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/mustafizur_rahman2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mustafizur Rahman"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.8 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mustafizur Rahman, also known as The Fizz, is a Bangladeshi international cricketer. He is specialized as a left-arm fast-medium bowler. He has taken the most wickets in a debut One Day International series. He is the first player to win the ‘Man of the Match’ award on both Test as well as ODI debuts.
+Born: September 6, 1995 (age 26 years), Satkhira District
+Height: 1.8 m
+Bowling: Left-arm Fast medium
+ODI debut (cap 118): 18 June 2015 v India
+Test debut (cap 78): 21 July 2015 v South Africa
+Siblings: Mokhlesur Rahman
+Parents: Mahmuda Khatun, Abul Qasem Gazi"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ============================================== -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rubel"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/rubel_hossain2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mohammad Rubel Hossain"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.8 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Mohammad Rubel Hossain is a Bangladeshi cricketer. Rubel made his international debut for Bangladesh in January 2009. A quick bowler with a slingy action similar to Lasith Malinga's- he also innovates a technique of delivery named 'Butterfly'.
+Born: January 1, 1990 (age 31 years), Bagerhat District
+Height: 1.8 m
+Spouse: Ishrat Jahan Dola (m. 2016)
+Bowling: Right arm fast medium
+Parents: Siddikur Rahman
+Batting: Right-handed
+Last Test: 7 February 2020 v Pakistan"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <!-- ========================================= -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/jayed"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/abu_jayed2"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Abu Jayed Chowdhury Rahi"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Height: 1.8 m"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Abu Jayed Chowdhury Rahi is a Bangladeshi cricketer who plays for Sylhet Division. He made his international debut for the Bangladesh cricket team in February 2018. In April 2019, he was named in Bangladesh's One Day International squad for the 2019 Cricket World Cup, despite being uncapped in an ODI match.
+Born: August 2, 1993 (age 28 years), Bangladesh
+Bowling: Right-arm medium-fast
+Last Test: 29 April 2021 v Sri Lanka
+Last ODI: 15 May 2019 v Ireland
+Test debut (cap 88): 4 July 2018 v Pakistan
+Last T20I: 7 June 2018 v Bangladesh
+National side: Bangladesh (2018–present)"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
